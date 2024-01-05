@@ -1,19 +1,35 @@
 ---
-title: 'Preview Mode for Static Generation'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+title: '一个苦逼的打工仔'
+excerpt: 'React开发工程师：打造高效、可扩展的前端应用'
 coverImage: '/assets/blog/preview/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
 author:
-  name: Joe Haddad
+  name: 彭小弟
   picture: '/assets/blog/authors/joe.jpeg'
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+React是一套开源的前端开发库，它使得构建复杂、高效和可维护的Web应用变得简单。以下是React的主要特性：
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
-
-## Lorem Ipsum
-
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+## 声明式设计
+React采用声明式编程范式，允许开发者通过描述应用的状态和行为来构建用户界面。这使得代码更易于理解和维护。
+## 组件化
+在React中，可以将一个应用拆分成一组可复用的组件，每个组件负责展示特定的部分。这有助于提高代码的复用性和可维护性。
+## 高效
+React使用虚拟DOM来优化性能，仅在必要时更新真实DOM，从而提高应用的响应速度。
+## 灵活
+无论你正在使用哪种技术栈，都可以通过引入React来轻松地开发新功能。React可以与现有的代码库无缝集成，并支持各种现代Web开发工具和库。
+## 生态丰富
+React拥有庞大的社区和丰富的生态系统，包括各种库、工具和教程，可以帮助开发者快速构建出高质量的应用。
+## 适用于各种应用
+React不仅仅适用于Web应用，还可以用于开发桌面应用和移动应用。例如，你可以使用React Native来开发原生移动应用。
+## 学习曲线平缓
+React的语法和概念相对直观，使得开发者可以快速上手并开始构建应用。
+## 可扩展性强
+随着应用的发展，你可以通过组合和嵌套组件来轻松地扩展应用的功能。
+## 支持多种编程范式
+除了函数式编程外，React还支持类和Hooks等其他编程范式，以满足不同项目的需求。
+## 国际化
+React支持国际化和本地化，使得开发多语言应用变得简单。
+总的来说，React的这些特性使其成为构建现代Web应用的强大工具。
