@@ -1,19 +1,31 @@
 ---
-title: 'Dynamic Routing and Static Generation'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+title: '智能手环'
+excerpt: 'Fotor懒设计提供给用户海量原创、精美的设计模板，即使是不会ps的人，也可以使用Fotor懒设计的模板和工具来快速完成设计。'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
 author:
-  name: JJ Kasper
+  name: 小老弟
   picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+目前穿戴产品有智能手环、智能手表，那还有什么产品？似乎没有了！不，还有智能戒指，芬兰科技公司Oura Ring，这款小众智能戒指在国外却是异常火爆，英国的哈里王子、环法赛传奇运动员阿姆斯特朗、推特创始人Jack Dorsey、NBA球员、WNBA运动员等都是它的用户。
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+这款产品Oura Ring 会跟踪您的睡眠、心率、血氧、心率变异性 (HRV) 和其他指标（加上从一般锻炼和活动中收集的数据），以提供您日常健康状况和准备情况的概览。主要功能
+1.身体状态
+2.睡眠监测
+3.运动监测
+4.冥想放松
 
-## Lorem Ipsum
+优势：
+1.精美的设计、2.轻巧舒适、3.易操作的App和丰富的信息、4.准时的睡眠跟踪、5.电量提醒、6.充电方便。7.电池充满可以使用4~5天
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+劣势：
+1.访问App需要订阅App
+2.没有一般的健身跟踪功能
+3.有些人需要智能手表
+
+这类小产品国内似乎很少公司做，目前有一家玖智科技正在做，融资了两轮，最近2023年11月拿到天使投资。戒指在国内似乎装饰品居多，但是智能戒指似乎是阉割版本的手环，但是从功能上面确实，但是如果从戒指概念来说，是增强版本的戒指，是戒指爱好者的一种福音。目前手环和手表市场成熟了，如果这块细分市场是不是有机会。
+
+ Oura Ring 第 3 代 目前定价299美金（约2100元人民币），急需国内卷王企业把价格打下来。
