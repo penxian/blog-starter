@@ -6,21 +6,16 @@ export default function Frist() {
   const [imageSrc, setImageSrc] = useState<string>("");
   const [text, setText] = useState<string>("");
 
+  // 上传图片
   const onChange = (event: ChangeEvent<HTMLInputElement>) => {
     const reader = new FileReader();
     reader.readAsDataURL(event.target.files[0]);
     reader.onload = (event) => {
       const base64String = event.target?.result as string;
-      console.log(event.target?.result);
-      // 假设base64String是包含头部信息的base64编码字符串
-      const base64StringWithoutHeader = base64String.replace(
-        /^data:image\/[a-z]+;base64,/,
-        ""
-      );
       setImageSrc(base64String);
-      console.log(base64StringWithoutHeader);
     };
   };
+  
   const handler = () => {
     fetch("/api/ocr", {
       method: "POST",
@@ -62,9 +57,11 @@ export default function Frist() {
             识别
           </button>
         </div>
-        <div className="flex items-center w-full justify-center mt-10">
-          <img src={imageSrc} />
-        </div>
+        {imageSrc && (
+          <div className="flex items-center w-full justify-center mt-10">
+            <img src={imageSrc} />
+          </div>
+        )}
         <div className="flex justify-center w-full mt-10">
           识别的字：<span className="font-bold">{text}</span>
         </div>

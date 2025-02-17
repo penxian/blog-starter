@@ -8,11 +8,11 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Script
+        {/* <Script
           disable-devtool-auto
           src="https://cdn.jsdelivr.net/npm/disable-devtool"
           data-url="http://localhost:3000"
-        ></Script>
+        ></Script> */}
       </body>
     </Html>
   );
