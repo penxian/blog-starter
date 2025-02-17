@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Layout from "../../components/newLayout/Layout";
 import { ChangeEvent, useState } from "react";
 
 export default function Frist() {
@@ -15,7 +16,7 @@ export default function Frist() {
       setImageSrc(base64String);
     };
   };
-  
+
   const handler = () => {
     fetch("/api/ocr", {
       method: "POST",
@@ -36,36 +37,38 @@ export default function Frist() {
       <Head>
         <title>OCR图片识别</title>
       </Head>
-      <div className="h-screen p-4">
-        <div className="text-sm breadcrumbs">
-          <ul>
-            <li>
-              <Link legacyBehavior href="/">
-                Home
-              </Link>
-            </li>
-            <li>ORC识别</li>
-          </ul>
-        </div>
-        <div className="flex items-center w-full justify-center mt-10 flex-row">
-          <input
-            type="file"
-            className="file-input file-input-bordered w-full max-w-xs"
-            onChange={onChange}
-          />
-          <button onClick={handler} className="btn btn-primary ml-2">
-            识别
-          </button>
-        </div>
-        {imageSrc && (
-          <div className="flex items-center w-full justify-center mt-10">
-            <img src={imageSrc} />
+      <Layout>
+        <div className="px-4 w-full">
+          <div className="text-sm breadcrumbs">
+            <ul>
+              <li>
+                <Link legacyBehavior href="/">
+                  首页
+                </Link>
+              </li>
+              <li>ORC识别</li>
+            </ul>
           </div>
-        )}
-        <div className="flex justify-center w-full mt-10">
-          识别的字：<span className="font-bold">{text}</span>
+          <div className="flex items-center w-full justify-center mt-10 flex-row">
+            <input
+              type="file"
+              className="file-input file-input-bordered w-full max-w-xs"
+              onChange={onChange}
+            />
+            <button onClick={handler} className="btn btn-primary ml-2">
+              识别
+            </button>
+          </div>
+          {imageSrc && (
+            <div className="flex items-center w-full justify-center mt-10">
+              <img src={imageSrc} />
+            </div>
+          )}
+          <div className="flex justify-center w-full mt-10">
+            识别的字：<span className="font-bold">{text}</span>
+          </div>
         </div>
-      </div>
+      </Layout>
     </>
   );
 }
